@@ -1,0 +1,435 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"extra1": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"AllHead": {
+					"rotation": [25.48505, -8.66296, -17.46275]
+				},
+				"Zui": {
+					"scale": [0.5, 1, 1]
+				},
+				"wenhao": {
+					"rotation": [0, 0, 15],
+					"scale": 1
+				},
+				"gantanhao": {
+					"scale": 0
+				}
+			}
+		},
+		"extra2": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"AllHead": {
+					"rotation": [0, 0, 0]
+				},
+				"Zui": {
+					"scale": [0.7, 1.5, 1]
+				},
+				"wenhao": {
+					"scale": 0
+				},
+				"gantanhao": {
+					"rotation": [0, 0, 0],
+					"scale": 1
+				}
+			}
+		},
+		"extra3": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"AllHead": {
+					"rotation": [9.76927, -12.57412, 0.88848]
+				},
+				"LeftEyelid": {
+					"scale": [1, 0.4, 1]
+				},
+				"LeftEyebrow": {
+					"position": [0, -1.3, 0]
+				},
+				"LeftPublic": {
+					"scale": 0
+				},
+				"RightPublic": {
+					"position": [0.3, 0, 0]
+				},
+				"QianFaR": {
+					"rotation": [-22.4886, -0.26135, -4.99318]
+				},
+				"QianFaL": {
+					"rotation": [-14.86383, -1.97352, -8.77401]
+				},
+				"RightArm": {
+					"rotation": [0, 12, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-30, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-5.413, -22.62757, -15.42165]
+				},
+				"LeftForeArm": {
+					"rotation": [0, 75, 52.5]
+				},
+				"LeftFoot": {
+					"rotation": [0, 0, 5]
+				},
+				"wenhao": {
+					"scale": 0
+				},
+				"gantanhao": {
+					"scale": 0
+				}
+			}
+		},
+		"extra4": {
+			"loop": true,
+			"animation_length": 4.04,
+			"bones": {
+				"root": {
+					"rotation": {
+						"0.0": [12.5, 0, 0],
+						"2.48": [12.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0.07, 3.97],
+						"2.48": [0, 0.07, 3.97]
+					}
+				},
+				"AllHead": {
+					"rotation": {
+						"0.0": [-1.52402, -66.00133, 7.42271],
+						"2.48": [-1.52402, -66.00133, 7.42271]
+					}
+				},
+				"LeftEyelid": {
+					"position": {
+						"0.0": [0, 1, 0],
+						"2.48": [0, 1, 0]
+					},
+					"scale": {
+						"0.0": [1, 0.2, 1],
+						"2.48": [1, 0.2, 1]
+					}
+				},
+				"LeftEyebrow": {
+					"position": {
+						"0.0": [0, -1, 0],
+						"2.48": [0, -1, 0]
+					}
+				},
+				"RightPublic": {
+					"scale": {
+						"0.0": [0.9, 1, 1],
+						"2.48": [0.9, 1, 1]
+					}
+				},
+				"LeftPublic": {
+					"scale": {
+						"0.0": [1, 0.1, 1],
+						"2.48": [1, 0.1, 1]
+					}
+				},
+				"QianFaR": {
+					"rotation": {
+						"0.0": [0.0019, 0.04358, 4.99981],
+						"2.48": [0.0019, 0.04358, 4.99981]
+					}
+				},
+				"QianFaL": {
+					"rotation": {
+						"0.0": [-5.99572, 0.06526, 7.49972],
+						"2.48": [-5.99572, 0.06526, 7.49972]
+					}
+				},
+				"LeftLowerLeg": {
+					"rotation": {
+						"0.0": [0, 0, -17.5],
+						"2.48": [0, 0, -17.5]
+					}
+				},
+				"LeftFoot": {
+					"rotation": {
+						"0.0": [4.52959, 3.3481, 16.17406],
+						"2.48": [4.52959, 3.3481, 16.17406]
+					}
+				},
+				"RightLowerLeg": {
+					"rotation": {
+						"0.0": [35.00673, -8.70554, -7.08538],
+						"2.48": [35.00673, -8.70554, -7.08538]
+					}
+				},
+				"DownBody": {
+					"rotation": {
+						"0.0": [16, 0, 0],
+						"2.48": [16, 0, 0]
+					}
+				},
+				"You": {
+					"rotation": {
+						"0.0": [0, 0, 10],
+						"2.48": [0, 0, 10]
+					}
+				},
+				"Zuo": {
+					"rotation": {
+						"0.0": [0, 0, -8],
+						"2.48": [0, 0, -8]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [-127.5, 9.47873, 72.3441],
+						"2.48": [-62.34871, 9.47873, 72.3441]
+					}
+				},
+				"RightForeArm": {
+					"rotation": {
+						"0.0": [-32.5, 0, 0],
+						"0.48": [-55.03, 0, 0],
+						"1.0": [-73.51, 0, 0],
+						"1.48": [-88.71, 0, 0],
+						"2.0": [-100.65, 0, 0],
+						"2.48": [-109.75, 0, 0],
+						"3.0": [-109.75, 0, 0],
+						"3.08": [-99.75, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": [-81.55453, -59.39903, -5.57006],
+						"2.48": [-81.55453, -59.39903, -5.57006]
+					}
+				},
+				"M_DaYiBaiR": {
+					"rotation": {
+						"0.0": [0, 0, 8],
+						"2.48": [0, 0, 8]
+					}
+				},
+				"Qian": {
+					"rotation": {
+						"0.0": [-10, 0, 0],
+						"2.48": [-10, 0, 0]
+					}
+				},
+				"WeiBa": {
+					"rotation": {
+						"0.0": [-2.5, 0, 0],
+						"2.48": [-2.5, 0, 0]
+					}
+				},
+				"LeftLeg": {
+					"rotation": {
+						"0.0": [-4.30635, -1.30284, -5.97997],
+						"2.48": [-4.30635, -1.30284, -5.97997]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"0.0": [-57.49836, 16.55814, -1.45555],
+						"2.48": [-57.49836, 16.55814, -1.45555]
+					}
+				},
+				"WeiBa2": {
+					"rotation": {
+						"0.0": [7.431, 12.16625, 13.36734],
+						"2.48": [7.431, 12.16625, 13.36734]
+					}
+				},
+				"EyeRedR": {
+					"position": {
+						"0.0": [0, 0, -1],
+						"2.48": [0, 0, -1]
+					}
+				},
+				"EyeNR": {
+					"position": {
+						"0.0": [0, 0, 1],
+						"2.48": [0, 0, 1]
+					}
+				},
+				"bone2": {
+					"rotation": {
+						"0.0": [-15, 0, 0],
+						"2.48": [-15, 0, 0]
+					}
+				},
+				"UpBody": {
+					"rotation": {
+						"0.0": [0, 60, 0],
+						"2.48": [0, 60, 0]
+					}
+				},
+				"Zui": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"2.48": [0, 0, 0]
+					}
+				},
+				"LeftForeArm": {
+					"rotation": [0, 0, 7.5]
+				},
+				"wenhao": {
+					"scale": 0
+				},
+				"gantanhao": {
+					"scale": 0
+				}
+			}
+		},
+		"extra5": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [-90, 0, 0],
+					"position": [0, 3, -20]
+				},
+				"AllHead": {
+					"rotation": [63.07346, -22.69843, -4.01604]
+				},
+				"YouYanBai": {
+					"position": [0, 0, 1],
+					"scale": [1, 0.4, 1]
+				},
+				"ZuoYanBai": {
+					"position": [0, 0, 1],
+					"scale": [1, 0.2, 1]
+				},
+				"MeiMaoZuo": {
+					"position": [-0.2, -1.4, 0]
+				},
+				"MeiMaoYou": {
+					"position": [0.1, -1.3, 0]
+				},
+				"YouYan": {
+					"position": [0, 0, 1],
+					"scale": [1, 0.1, 1]
+				},
+				"YouYan2": {
+					"position": [0, 0, 1],
+					"scale": [1, 0.2, 1]
+				},
+				"Zui2": {
+					"position": [0, -0.4, 0],
+					"scale": [1, -0.1, 1]
+				},
+				"QianTouFa3": {
+					"rotation": [0.00048, 0.02181, 2.4999]
+				},
+				"Xu1_QianTouFa2": {
+					"rotation": [-22.57678, 0.33059, 7.49311]
+				},
+				"Xu1_QianTouFa3": {
+					"rotation": [-17.25168, 3.81415, 17.08424]
+				},
+				"QianTouFa2": {
+					"rotation": [0.0019, 0.04358, 4.99981]
+				},
+				"Xu1_QianTouFa5": {
+					"rotation": [-19.92511, 0.2136, 4.996]
+				},
+				"LeftArm": {
+					"rotation": [21.57664, 6.25373, -36.13404]
+				},
+				"LeftForeArm": {
+					"rotation": [-17.5, 0, 0]
+				},
+				"RightArm": {
+					"rotation": [-24.79444, -5.29323, 6.83052]
+				},
+				"RightForeArm": {
+					"rotation": [-46.47382, -50.45206, -44.34149]
+				},
+				"MeiMao3": {
+					"position": [0, 0.7, 0]
+				},
+				"MeiMao2": {
+					"position": [0, 0.6, 0]
+				},
+				"MZuo": {
+					"position": [0, 0, 1]
+				},
+				"MYou": {
+					"position": [0, 0, 1]
+				},
+				"BQ___": {
+					"position": [0, -0.6, -5]
+				},
+				"MeiMao_BQ": {
+					"position": [0, -0.2, 0]
+				},
+				"MeiMaoZuo2": {
+					"position": [-0.25, 0, 0]
+				},
+				"MeiMaoZuo3": {
+					"position": [0.25, 0, 0]
+				},
+				"LongHair": {
+					"rotation": [-30, 0, 0]
+				},
+				"MaoZi": {
+					"rotation": [86.80046, -11.40666, -38.44371],
+					"position": [0, -4.8, -5.6]
+				},
+				"LeftLowerLeg": {
+					"rotation": [90, 0, 0]
+				},
+				"LeftLeg": {
+					"rotation": [-30, 0, 0]
+				},
+				"LeftFoot": {
+					"rotation": [25, 0, 0]
+				},
+				"wenhao": {
+					"scale": 0
+				},
+				"gantanhao": {
+					"scale": 0
+				}
+			}
+		},
+		"extra6": {
+			"loop": true,
+			"bones": {
+				"AllHead": {
+					"rotation": [17.35643, -4.88334, 3.20557]
+				},
+				"LeftEyelid": {
+					"scale": 1
+				},
+				"LeftEyebrow": {
+					"position": [0, -0.1, 0]
+				},
+				"LeftPublic": {
+					"position": [-0.1, 0, 0],
+					"scale": 1
+				},
+				"RightArm": {
+					"rotation": [0, 0, 20]
+				},
+				"RightForeArm": {
+					"rotation": [-26.89341, -41.20301, -43.08306]
+				},
+				"QianFaR": {
+					"rotation": [-6.998, 0.06561, 1.50085]
+				},
+				"QianFaL": {
+					"rotation": [-13.46723, -0.96695, -3.88155]
+				},
+				"wenhao": {
+					"scale": 0
+				},
+				"gantanhao": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}
