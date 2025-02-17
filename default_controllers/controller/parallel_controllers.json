@@ -1,0 +1,144 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"player.pre_parallel_0": {
+			"states": {
+				"default": {
+					"animations": ["hair_physics", "pre_parallel1", "pre_parallel2", "pre_parallel3", "pre_parallel4", "pre_parallel5", "pre_parallel6", "pre_parallel7"]
+				}
+			}
+		},
+		"player.pre_parallel_1": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.pre_parallel_2": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.pre_parallel_3": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.pre_parallel_4": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.pre_parallel_5": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.pre_parallel_6": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.pre_parallel_7": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.parallel_0": {
+			"states": {
+				"default": {
+					"animations": ["parallel0", "parallel1", "parallel2", "parallel3", "parallel4", "parallel5", "parallel6", "parallel7"]
+				}
+			}
+		},
+		"player.parallel_1": {
+			"states": {
+				"default": {
+					"animations": ["attack_empty"],
+					"on_exit": ["v.swing_sword=0;t.attack=v.attack;v.attack=math.mod(t.attack+1,3);"],
+					"transitions": [
+						{"attack1": "v.swing_sword&&v.attack==0"},
+						{"attack2": "v.swing_sword&&v.attack==1"},
+						{"attack3": "v.swing_sword&&v.attack==2"}
+					]
+				},
+				"attack1": {
+					"animations": [
+						{"sword_attack_01": "!ctrl.idle"},
+						{"sword_idle_attack_01": "ctrl.idle"}
+					],
+					"on_exit": ["v.swing_sword=0;t.attack=v.attack;v.attack=math.mod(t.attack+1,3);"],
+					"transitions": [
+						{"attack2": "v.swing_sword&&v.attack==1"},
+						{"default": "q.all_animations_finished"}
+					],
+					"blend_transition": 0.1
+				},
+				"attack2": {
+					"animations": [
+						{"sword_attack_02": "!ctrl.idle"},
+						{"sword_idle_attack_02": "ctrl.idle"}
+					],
+					"on_exit": ["v.swing_sword=0;t.attack=v.attack;v.attack=math.mod(t.attack+1,3);"],
+					"transitions": [
+						{"attack3": "v.swing_sword&&v.attack==2"},
+						{"default": "q.all_animations_finished"}
+					],
+					"blend_transition": 0.1
+				},
+				"attack3": {
+					"animations": [
+						{"sword_attack_03": "!ctrl.idle"},
+						{"sword_attack_03": "ctrl.idle"}
+					],
+					"on_exit": ["v.swing_sword=0;t.attack=v.attack;v.attack=math.mod(t.attack+1,3);"],
+					"transitions": [
+						{"default": "q.all_animations_finished"},
+						{"attack1": "v.swing_sword&&v.attack==0"}
+					],
+					"blend_transition": {
+						"0.0": 1,
+						"0.0111": 0.96985,
+						"0.0222": 0.88302,
+						"0.0333": 0.75,
+						"0.0445": 0.58682,
+						"0.0556": 0.41318,
+						"0.0667": 0.25,
+						"0.0778": 0.11698,
+						"0.0889": 0.03015,
+						"0.1": 0
+					}
+				}
+			}
+		},
+		"player.parallel_2": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.parallel_3": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.parallel_4": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.parallel_5": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.parallel_6": {
+			"states": {
+				"default": {}
+			}
+		},
+		"player.parallel_7": {
+			"states": {
+				"default": {}
+			}
+		}
+	}
+}
