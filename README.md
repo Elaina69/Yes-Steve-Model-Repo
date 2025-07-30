@@ -8,7 +8,7 @@
 # Thank you
  - Special thanks [TartaricAcid](https://github.com/TartaricAcid) (Yes Steve Models' mod author) for advertising this repo on the mod's download page
   
- - Thank you Luckyu19, for helping me translate and rename most models here into English version
+ - Thank you [Luckyu19](https://github.com/luckyu19), for helping me translate and rename most models here into English version
 
 <br>
 <br>
