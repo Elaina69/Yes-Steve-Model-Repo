@@ -10,6 +10,8 @@
   
  - Thank you [Luckyu19](https://github.com/luckyu19), for helping me translate and rename most models here into English version
 
+ - Thank you [Jerry](https://github.com/Jerry790790/Jerry790) and Bird, for helping me update the repo
+
 <br>
 <br>
 
