@@ -12,6 +12,7 @@
 
  - Thank you [Jerry](https://github.com/Jerry790790/Jerry790) and Bird, for helping me update the repo
 
+ - Thank you all Model creators for making those models free for everyone
 <br>
 <br>
 
