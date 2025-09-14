@@ -6,13 +6,13 @@
 </p>
 
 # Thank you
- - Special thanks [TartaricAcid](https://github.com/TartaricAcid) (Yes Steve Models' mod author) for advertising this repo on the mod's download page
+ - Special thanks [TartaricAcid](https://github.com/TartaricAcid) (Yes Steve Models' mod author) for creating YSM mod and advertising this repo on the mod's download page
   
  - Thank you [Luckyu19](https://github.com/luckyu19), for helping me translate and rename most models here into English version
 
  - Thank you [Jerry](https://github.com/Jerry790790/Jerry790) and Bird, for helping me update the repo
 
- - Thank you all Model creators for making those models free for everyone
+ - Thank you all Model creators for making these models free for everyone
 <br>
 <br>
 
