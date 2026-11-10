@@ -1,3 +1,9 @@
+## Model formats and compatibility
+
+See [model formats, Minecraft versions, and server installation](COMPATIBILITY.md)
+for archive layouts, installation notes, and the scope of experimental Minecraft
+26.2 verification. This repository contains models; a compatible mod is required.
+
 # Visitors
 <p align="center">
     (since 2024/11/30)
