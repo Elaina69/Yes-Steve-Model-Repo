@@ -3,6 +3,8 @@
 See [model formats, Minecraft versions, and server installation](COMPATIBILITY.md)
 for archive layouts, installation notes, and the scope of experimental Minecraft
 26.1.x, 26.2 and 26.3 verification. This repository contains models; a compatible mod is required.
+Unofficial mod test JARs and installation notes in four languages are linked
+from that compatibility guide; model files remain unchanged.
 
 # Visitors
 <p align="center">

@@ -76,8 +76,24 @@ Its three **unofficial alpha test JARs** are available in
 [the mod fork's 26.1.x Release](https://github.com/IsSlashy/OpenYSM-Updated/releases/tag/fabric-26.1.x-alpha.1).
 Choose the file for the exact game version; these are not official YSM releases.
 
-The implementation proposal is tracked in
-[the mod's draft port PR](https://github.com/qbb95/OpenYSM-Updated/pull/1).
+The 26.2 and 26.3 mod proposals are tracked separately:
+[26.2 draft PR](https://github.com/qbb95/OpenYSM-Updated/pull/1) and
+[26.3 draft PR](https://github.com/qbb95/OpenYSM-Updated/pull/3).
+Their **unofficial alpha test JARs** are now available in the
+[26.2 Release](https://github.com/IsSlashy/OpenYSM-Updated/releases/tag/fabric-26.2-alpha.4)
+and [26.3 Release](https://github.com/IsSlashy/OpenYSM-Updated/releases/tag/fabric-26.3-alpha.2).
+All three version-family Releases include English, French, Simplified Chinese
+and Japanese notes and installation instructions.
+
+The final 26.2/26.3 Windows tests repeated complete empty-cache loading and
+fresh-process reconnects, with two independent clients and clean exits. The
+verified HotSpot client configuration uses `-XX:StackShadowPages=32`: 26.3's
+Mojang launch metadata already includes it, and custom launchers must preserve
+it. The 26.2 test configuration adds the same margin explicitly. A prior native
+JVM failure was reproduced without YSM before correcting the test launcher's
+omission; see the mod's
+[launcher diagnosis](https://github.com/IsSlashy/OpenYSM-Updated/blob/codex/fabric-26.3-port/verification/LAUNCHING.md).
+This does not change these model files or require a model conversion.
 Unofficial version-specific test JARs belong in
 [the mod fork's Releases](https://github.com/IsSlashy/OpenYSM-Updated/releases).
 This asset repository does not need copies of those JARs or Minecraft-specific
