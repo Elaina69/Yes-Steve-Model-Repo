@@ -2,7 +2,7 @@
 
 See [model formats, Minecraft versions, and server installation](COMPATIBILITY.md)
 for archive layouts, installation notes, and the scope of experimental Minecraft
-26.2 verification. This repository contains models; a compatible mod is required.
+26.1.x, 26.2 and 26.3 verification. This repository contains models; a compatible mod is required.
 
 # Visitors
 <p align="center">
